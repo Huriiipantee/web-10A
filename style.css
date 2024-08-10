@@ -1,0 +1,256 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(assets/love.jpg);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            
+        }
+        .container {
+            width: 50%;
+            max-width: 100%;
+            margin: 0;
+       }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-family: "Silkscreen", sans-serif;
+             font-weight: 400;
+            font-style: normal;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product-card {
+            background: #AFEEEE;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .product-info {
+            padding: 15px;
+        }
+        .product-title {
+            font-size: 1.2em;
+            margin: 0;
+            color: #333;
+        }
+        .product-description {
+            font-size: 0.9em;
+            color: #666;
+            margin: 10px 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .product-price {
+            font-size: 1.2em;
+            color: #27ae60;
+            margin: 10px 0;
+        }
+        .button {
+            background: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background 0.3s;
+            transition: .3s ease-in-out;
+        }
+        .button:hover {
+            background: #2980b9;
+        }
+
+        .btn-whatsapp {
+            display: inline-flex;
+            align-items: center;
+            background-color: #25D366;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .btn-whatsapp:hover {
+            background-color: #1DA851;
+        }
+        
+        .btn-whatsapp i {
+            margin-right: 0.5rem;
+        }
+        
+        .fContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;;
+            height: auto;
+            background-color: #666;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+            padding: 15px;
+            width: 800px;
+            height: 80px;
+            background-color : pink;
+            box-shadow: 0 7px 15px 0 grey;
+        }
+        
+        .brand {
+            display: flex;
+            flex-direction: row;
+            font-size: 1,5em;
+            padding: 15px;
+        }
+        
+
+        .firstname {
+            color: white;
+            font-weight: 700;
+            text-transform: capitalize;
+            padding: 15px;
+        }
+
+        .firstname:hover {
+            color: #333;
+        }
+
+        .pepek {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pepek>li>a {
+            color: black;
+            text-decoration: none;
+            text-transform: capitalize;
+            padding-inline: 15px;
+        }
+        .pepek>li>a:hover {
+            color: white;
+            transition: all .3s ease-in-out;
+            background-color: grey;
+            padding-block: 10%;
+            box-shadow: 0 7px 15px grey;
+        }
+
+        .pepek>li {
+            list-style: none;
+            padding: 15px;
+        }
+        
+        .logo-alt {
+            height: auto;
+            width: 60px;
+            display: flex;
+        }
+
+        header {
+            background: #0044cc;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            padding: 20px;
+            background: #f4f4f4;
+        }
+        
+        .about h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .about p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .about-me {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            text-align: left;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        td {
+            color: #666;
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .me {
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+        .me:hover {
+            text-decoration: underline;
+        }
+
+    
